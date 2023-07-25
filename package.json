@@ -1,0 +1,15 @@
+{
+  "name": "pro-shop",
+  "version": "1.0.0",
+  "description": "Ecommerce app built with MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Sourav Choudhury",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
