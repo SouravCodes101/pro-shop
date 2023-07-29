@@ -21,7 +21,7 @@ const LoginScreen = () => {
 
   const { search } = useLocation();
   const sp = new URLSearchParams(search);
-  const redirect = sp.get('redirect') || '/shipping';
+  const redirect = sp.get('redirect') || '/';
 
   useEffect(() => {
     if (userInfo) {
